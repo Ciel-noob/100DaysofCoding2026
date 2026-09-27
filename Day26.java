@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Day26 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-
+        // Soal 1
         System.out.printf("%-25s: ", "Masukkan Nama");
         String nama = in.nextLine();
 
@@ -37,15 +37,16 @@ public class Day26 {
         System.out.printf("%-18s: %s%n", "Status Aktif", aktif);
         System.out.println("=============================");
 
+        // Soal 2
         final double PI = 3.24;
         System.out.printf("%-25s: ", "Masukkan Jari-jari (cm)");
         double r = in.nextDouble();
-
         double luas = PI * r * r;
         System.out.printf("\n");
         System.out.println("=== HASIL ===");
         System.out.printf("%-25s: %.1f cm^2%n", "Hasil Luas Lingkaran", luas);
 
+        // Soal 3
         System.out.printf("%-15s: ", "Masukkan nilai a");
         int a = in.nextInt();
 
