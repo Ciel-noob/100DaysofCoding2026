@@ -28,13 +28,13 @@ public class Day26 {
 
         System.out.printf("\n");
         System.out.println("===== BIODATA MAHASWA =====");
-        System.out.printf("%-18s: %s%n", "Nama", nama);
-        System.out.printf("%-18s: %s%n", "NIM", nim);
-        System.out.printf("%-18s: %s%n", "Kelas", kelas);
-        System.out.printf("%-18s: %d%n", "Umur", umur);
-        System.out.printf("%-18s: %s%n", "Prodi", prodi);
-        System.out.printf("%-18s: %.2f%n", "IPK", ipk);
-        System.out.printf("%-18s: %s%n", "Status Aktif", aktif);
+        System.out.printf("%-25s: %s%n", "Nama", nama);
+        System.out.printf("%-25s: %s%n", "NIM", nim);
+        System.out.printf("%-25s: %s%n", "Kelas", kelas);
+        System.out.printf("%-25s: %d%n", "Umur", umur);
+        System.out.printf("%-25s: %s%n", "Prodi", prodi);
+        System.out.printf("%-25s: %.2f%n", "IPK", ipk);
+        System.out.printf("%-25s: %s%n", "Status Aktif", aktif);
         System.out.println("=============================");
 
         // Soal 2
@@ -47,10 +47,10 @@ public class Day26 {
         System.out.printf("%-25s: %.1f cm^2%n", "Hasil Luas Lingkaran", luas);
 
         // Soal 3
-        System.out.printf("%-15s: ", "Masukkan nilai a");
+        System.out.printf("%-25s: ", "Masukkan nilai a");
         int a = in.nextInt();
 
-        System.out.printf("%-15s: ", "Masukkan nilai b");
+        System.out.printf("%-25s: ", "Masukkan nilai b");
         int b = in.nextInt();
 
         a = a + b;
@@ -59,8 +59,8 @@ public class Day26 {
 
         System.out.printf("\n");
         System.out.println("=== HASIL SWAP ===");
-        System.out.printf("%-15s: %d%n", "a", a);
-        System.out.printf("%-15s: %d%n", "b", b);
+        System.out.printf("%-25s: %d%n", "a", a);
+        System.out.printf("%-25s: %d%n", "b", b);
 
         in.close();
     }
