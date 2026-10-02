@@ -11,12 +11,10 @@ public class Day31 {
         System.out.print("Masukkan Nilai Ketiga: ");
         int c = in.nextInt();
         
-
         System.out.printf("Kedua angka lebih besar dari ketiga? (AND): %B\n", (a > c && b > c));
         System.out.printf("Salah satu angka lebih besar dari ketiga? (OR): %B\n", (a > c || b > c));
         System.out.printf("Nilai Not && : %B\n",!(a>c&&b>c));
         System.out.printf("Nilai Not || : %B\n",!(a>c||b>c));
-
         in.close();
     }
 }
