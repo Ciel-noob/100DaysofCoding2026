@@ -4,40 +4,27 @@ public class Day33 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        System.out.print("Masukkan nama: ");
+        System.out.print("Masukkan Nama Anda: ");
         String nama = in.nextLine();
-        System.out.print("Masukkan nilai: ");
-        int nilai = in.nextInt();
-        System.out.print("Masukkan persentase kehadiran: ");
-        int kehadiran = in.nextInt();
+        System.out.print("Masukkan Jumlah MBG(My BINI GWEHH) Anda: ");
+        int b = in.nextInt();
+        System.out.print("Status Character Anda(Mc?) true/false: ");
+        boolean mc = in.nextBoolean();
 
-        // Kondisi berupa variabel boolean
-        boolean sudahMendaftar = true;
-        if (sudahMendaftar) {
-            System.out.println("Kamu sudah terdaftar.");
-        }
-
-        // Kondisi menggunakan operator relasional
-        if (nilai >= 75) {
-            System.out.println("Lulus.");
+        if (mc) 
+            System.out.println("Noted, Anda Adalah Mc.");
+        
+        if (b > 1) {
+            System.out.println("Dasar Karbitan.");
         } else {
-            System.out.println("Belum lulus.");
+            System.out.println("Anda itu Setia (AFFAH Iyya??) .");
         }
 
-        // Kondisi menggunakan operator logika
-        if (nilai >= 75 && kehadiran >= 80) {
-            System.out.println("Memenuhi syarat nilai dan kehadiran.");
+        if (b > 1 && mc) {
+            System.out.println("Inimah Karbit :) ");
         } else {
-            System.out.println("Nilai atau kehadiran belum memenuhi syarat.");
+            System.out.println("Hsy, is That You??");
         }
-
-        // Kondisi menggunakan method String
-        if (nama.equalsIgnoreCase("Budi")) {
-            System.out.println("Halo, Budi!");
-        } else {
-            System.out.println("Halo, " + nama + "!");
-        }
-
         in.close();
     }
 }
