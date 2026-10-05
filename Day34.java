@@ -5,9 +5,9 @@ public class Day34 {
         Scanner in = new Scanner(System.in);
         int a = in.nextInt();
         if (a>0&&a%2 == 0) {
-            System.out.println("Genap");
+            System.out.println("Positif Genap");
         } else if (a<0&&a%2 == 0) {
-            System.out.println("Ganjil");
+            System.out.println("Negatif Genap");
         }else{
             System.out.println("Bukan bilangan positif atau negatif");
         }
