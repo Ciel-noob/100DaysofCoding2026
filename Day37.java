@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Day37 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.print("Bilangan ");
+        System.out.print("Bilangan: ");
         int a= in.nextInt();
         if (a > 0) {
             if (a % 2 == 0) {
@@ -20,5 +20,6 @@ public class Day37 {
         } else {
             System.out.println("Nol");
         }
+        in.close;
     }
 }
