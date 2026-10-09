@@ -18,5 +18,6 @@ public class Day38 {
         } else {
             System.out.println("Belum Menambah Menu Lain");
         }
+        in.close();
     }
 }
