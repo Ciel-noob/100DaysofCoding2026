@@ -4,10 +4,8 @@ public class Day39 {
         Scanner in = new Scanner(System.in);
         System.out.print("Masukkan Angka Pertama: ");
         double a = in.nextDouble();
-        
         System.out.print("Perintah (+, -, *, /, %): ");
         char c = in.next().charAt(0);
-        
         System.out.print("Masukkan Angka Kedua: ");
         double b = in.nextDouble();
         
