@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Day52 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.print("Pilihlah Angka Mr/Ms:)");
+        System.out.print("Pilihlah Angka :)");
         int a = in.nextInt();
         int b = 1;
         while (b <= a) {
