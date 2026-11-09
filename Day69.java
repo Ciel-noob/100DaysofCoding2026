@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Day69 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.print("Masukkan Panjang Baris Persegi: ");
+        System.out.print("Masukkan Panjang Baris Persegi Panjang: ");
         int a = in.nextInt();
 
         for (int i = 1; i<=a;i++){
