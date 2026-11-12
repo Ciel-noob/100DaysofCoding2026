@@ -2,22 +2,22 @@ import java.util.Scanner;
 public class Day72 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int b = 0;
+        int a = 0;
 
         for (;;) {
-            System.out.print("Masukkan angka (angka negatif untuk berhenti): ");
-            int angka = in.nextInt();
+            System.out.print("Masukkan Angka (Angka Negatif untuk berhenti): ");
+            int b = in.nextInt();
 
-            if (angka < 0) {
+            if (b < 0) {
                 break;
             }
 
-            for (int i = 0; i < angka; i++) {
-                b++;
+            for (int i = 0; i < b; i++) {
+                a++;
             }
         }
 
-        System.out.println("Jumlah: " + b);
+        System.out.println("Jumlah: " + a);
         in.close();
     }
 }
