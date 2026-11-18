@@ -6,7 +6,7 @@ public class Day78 {
 
         System.out.println("=== Membuat Akun ===");
         System.out.print("Buat nama pengguna: ");
-        String usernameAkun = in.nextLine();
+        String namaPengguna = in.nextLine();
         System.out.print("Buat kata sandi: ");
         String passwordAkun = in.nextLine();
 
@@ -17,17 +17,17 @@ public class Day78 {
         do {
             System.out.println("=== Login ===");
             System.out.print("Nama pengguna: ");
-            usernameLogin = in.nextLine();
+            penggunaLogin = in.nextLine();
             System.out.print("Kata sandi: ");
             passwordLogin = in.nextLine();
 
-            if (!usernameAkun.equals(usernameLogin)|| !passwordAkun.equals(passwordLogin)) {
+            if (!namaPengguna.equals(penggunaLogin)|| !passwordAkun.equals(passwordLogin)) {
                 System.out.println("Nama pengguna atau kata sandi salah. Coba lagi.");
                 System.out.println();
             }
-        } while (!usernameAkun.equals(usernameLogin)|| !passwordAkun.equals(passwordLogin));
+        } while (!namaPengguna.equals(penggunaLogin)|| !passwordAkun.equals(passwordLogin));
 
-        System.out.println("Login berhasil. Selamat datang, " + usernameAkun);
+        System.out.println("Login berhasil. Selamat datang, " + namaPengguna);
         in.close();
     }
 }
